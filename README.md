@@ -38,7 +38,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 
-  ![enteringResourceGroupCredentials](https://github.com/user-attachments/assets/f167dec0-95f5-4996-b4da-3d4e53453a50)
+  ![RG](https://github.com/user-attachments/assets/22bfb67c-db41-419c-97e7-ec8cb6ad9fe4)
+
 
 </p>
 <p>
