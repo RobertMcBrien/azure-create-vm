@@ -1,5 +1,7 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+
+  ![image](https://github.com/user-attachments/assets/50e42859-99fb-47b3-8097-c83d5f848791)
+
 </p>
 
 <h1>Creating a Virtual Machine in Azure</h1>
