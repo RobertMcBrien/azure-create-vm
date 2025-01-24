@@ -110,6 +110,6 @@ In this step, we review our project, and see if it passes the validation process
 
 </p>
 <p>
-Wohoo! We made it to the end! We have deployed our very own virtual machine using microsoft azure! 
+Wohoo! We made it to the end! We have deployed our very own virtual machine using microsoft azure! Following this we can further select our virtual machine to see more details regarding it, including the public IP address and of course the private IP address, and more! 
 </p>
 <br />
