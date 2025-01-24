@@ -110,6 +110,9 @@ In this step, we review our project, and see if it passes the validation process
 
 </p>
 <p>
-Wohoo! We made it to the end! We have deployed our very own virtual machine using microsoft azure! Following this we can further select our virtual machine to see more details regarding it, including the public IP address and of course the private IP address, and more! 
+Bonus! To use the virtual machine, or logon. We simply go to our computer search bar at the bottom left, and type in remote desktop connection. After that, enter the appropriate credentials. Including username, password, and public IP address for our virtual machine, and just like that, we have successfully learned how to log in and use our virtual machine.
 </p>
 <br />
+
+
+
