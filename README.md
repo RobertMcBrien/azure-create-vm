@@ -104,7 +104,9 @@ In this step, we review our project, and see if it passes the validation process
 
 <p>
 
-  ![VMcreated](https://github.com/user-attachments/assets/6c8f6e00-c209-4e91-b0b6-15caebfa0977)
+ 
+ ![remotedesktop](https://github.com/user-attachments/assets/f2b68941-96b7-434d-a08b-2a96166bc99e)
+
 
 
 
