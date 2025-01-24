@@ -7,7 +7,7 @@
 <h1>Creating a Virtual Machine in Azure</h1>
 
 <h2>Description</h2>
-<p>This project demonstrates how to create and set up a virtual machine in microsoft azure. We will go on the Microsoft Azure Portal(Virtual Machines/Compute). Then we will learn how to
+<p>This project demonstrates how to create and set up a virtual machine in Microsoft Azure. We will go on the Microsoft Azure Portal(Virtual Machines/Compute). Then we will learn how to
 create a Resource group, create our virtual machine, set up our virtual machine, finish creating/deploying it and then learn how to log in to our newly created virtual machine.
 </p>
 <h2>Environments Used</h2>
@@ -23,7 +23,7 @@ create a Resource group, create our virtual machine, set up our virtual machine,
 
 </p>
 <p>
-First, we go to microsoft azure website portal. After logging in, we hit the search bar at the top, type in "Resource groups", after clicking on that, we then select create.
+First, we go to the Microsoft Azure website portal. After logging in, we hit the search bar at the top, type in "Resource groups", after clicking on that, we then select create.
 </p>
 <br />
 
@@ -34,7 +34,7 @@ First, we go to microsoft azure website portal. After logging in, we hit the sea
 
 </p>
 <p>
-The next step consist of naming the resource group adn selecting the region for our resource group. Choose an appropriate name for your project, and select the region you are located within.
+The next step consist of naming the resource group and selecting the region for our resource group. Choose an appropriate name for your project, and select the region you are located within.
 </p>
 <br />
 
@@ -56,7 +56,7 @@ Following the creation of your resource group, you then click the search bar at 
 
 </p>
 <p>
-In this step, we set up our project details. First, we ensure our virtual machine is located in the correct resource group. Then, we choose an appropriate name for our machine. Likely relating to it's use or purpose. Select region closest to you, and remember to use the same specific zone for all virtual machines you plan on using together. After that, you will select your image type, aka your server of choice, for example, windows or ubuntu.
+In this step, we set up our project details. First, we ensure our virtual machine is located in the correct resource group. Then, we choose an appropriate name for our machine. Likely relating to its use or purpose. Select the region closest to you, and remember to use the same specific zone for all virtual machines you plan on using together. After that, you will select your image type, aka your server of choice, for example, windows or ubuntu.
 
 </p>
 <br />
@@ -69,7 +69,7 @@ In this step, we set up our project details. First, we ensure our virtual machin
 
 </p>
 <p>
-In this step we select the VM architecture and the size of the virtual machine. The standard arechitectre is x64, and the recommended size of the machine should be at least two central processing units and 8 GIB memory. You may have to choose 16 GIB of memory depending on the options available in your zone.
+In this step we select the VM architecture and the size of the virtual machine. The standard architecture is x64, and the recommended size of the machine should be at least two central processing units and 8 GIB memory. You may have to choose 16 GIB of memory depending on the options available in your zone.
 </p>
 <br />
 
@@ -80,7 +80,7 @@ In this step we select the VM architecture and the size of the virtual machine. 
 
 
 </p>
-Next, we will enter in our username and password. I suggest writing this down somewhere, just in case you forget. You will also select your inbound ports, preferrably being RDP. Finally, you will confirm you have an eligible windows license with hosting rights.
+Next, we will enter in our username and password. I suggest writing this down somewhere, just in case you forget. You will also select your inbound ports, preferably being RDP. Finally, you will confirm you have an eligible windows license with hosting rights.
 <p>
 
 </p>
