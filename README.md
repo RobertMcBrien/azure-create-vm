@@ -94,7 +94,7 @@ Next, we will enter in our username and password. I suggest writing this down so
 
 </p>
 <p>
-In this step, we review our project, and see if it passes the validation process. If, it passes inspection, we can select create. If not, we may have to adjust something. Some users, may have issues with too many Virtual machines, or resource groups being used at the same time, or in the same region. This will vary based on your specific microsoft azure subscription. Make sure you read the specific error message to troubleshoot accordingly. Otherwise, you can create.
+In this step, we review our project, and see if it passes the validation process. If it passes inspection, we can select create. If not, we may have to adjust something. Some users may have issues with too many Virtual machines, or resource groups being used at the same time, or in the same region. This will vary based on your specific microsoft azure subscription. Make sure you read the specific error message to troubleshoot accordingly. Otherwise, you can create.
 </p>
 <br />
 
