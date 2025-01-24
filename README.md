@@ -7,13 +7,9 @@
 <h1>Creating a Virtual Machine in Azure</h1>
 
 <h2>Description</h2>
-<p>This project demonstrates how to create and set up a virtual machine in microsoft azure. </p>
-- Microsoft Azure Portal(Virtual Machines/Compute)
-- Creating Resource group
-- Creating Virtual Machine
-- Selecting specific settings for Virtual Machine
-- Finish creating virtual machine
-
+<p>This project demonstrates how to create and set up a virtual machine in microsoft azure. We will go on the Microsoft Azure Portal(Virtual Machines/Compute). Then we will learn how to
+create a Resource group, create our virtual machine, set up our virtual machine, finish creating/deploying it and then learn how to log in to our newly created virtual machine.
+</p>
 <h2>Enviornments Used</h2>
 
 - Windows 10
