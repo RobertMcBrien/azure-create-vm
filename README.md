@@ -5,28 +5,22 @@
 </p>
 
 <h1>Creating a Virtual Machine in Azure</h1>
-In this tutorial, we observe how to create and set up a virtual machine in azure. <br />
+<br />
 
+<h2>Description</h2>
+<p>This project demonstrates how to create and set up a virtual machine in microsoft azure. </p>
+- Microsoft Azure Portal(Virtual Machines/Compute)
+- Creating Resource group
+- Creating Virtual Machine
+- Selecting specific settings for Virtual Machine
+- Finish creating virtual machine
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+<h2>Operating System(Enviornments) Used </h2>
 
-<h2>Operating Systems Used </h2>
+- Windows 10
+- Microsoft Azure portal
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
-
-<h2>High-Level Steps</h2>
-
-- 
-- Step 2
-- Step 3
-- Step 4
-
-<h2>Actions and Observations</h2>
+<h2>Step by step Walkthrough:</h2>
 
 <p>
 
@@ -34,7 +28,7 @@ In this tutorial, we observe how to create and set up a virtual machine in azure
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, we go to microsoft azure website portal. After logging in, we hit the search bar at the top, type in "Resource groups", after clicking on that, we then select create.
 </p>
 <br />
 
@@ -45,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next step consist of naming the resource group adn selecting the region for our resource group. Choose an appropriate name for your project, and select the region you are located within.
 </p>
 <br />
 
@@ -55,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Following the creation of your resource group, you then click the search bar at the top, and type in "virtual machines". Select virtual machines, and then you should make it to this specific page. On this page you will select the create option.
 </p>
 <br />
 
@@ -67,7 +61,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we set up our project details. First, we ensure our virtual machine is located in the correct resource group. Then, we choose an appropriate name for our machine. Likely relating to it's use or purpose. Select region closest to you, and remember to use the same specific zone for all virtual machines you plan on using together. After that, you will select your image type, aka your server of choice, for example, windows or ubuntu.
+
 </p>
 <br />
 
@@ -79,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step we select the VM architecture and the size of the virtual machine. The standard arechitectre is x64, and the recommended size of the machine should be at least two central processing units and 8 GIB memory. You may have to choose 16 GIB of memory depending on the options available in your zone.
 </p>
 <br />
 
@@ -90,8 +85,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 </p>
+Next, we will enter in our username and password. I suggest writing this down somewhere, just in case you forget. You will also select your inbound ports, preferrably being RDP. Finally, you will confirm you have an eligible windows license with hosting rights.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
@@ -103,7 +99,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we review our project, and see if it passes the validation process. If, it passes inspection, we can select create. If not, we may have to adjust something. Some users, may have issues with too many Virtual machines, or resource groups being used at the same time, or in the same region. This will vary based on your specific microsoft azure subscription. Make sure you read the specific error message to troubleshoot accordingly. Otherwise, you can create.
 </p>
 <br />
 
@@ -115,6 +111,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Wohoo! We made it to the end! We have deployed our very own virtual machine using microsoft azure! 
 </p>
 <br />
