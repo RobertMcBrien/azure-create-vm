@@ -5,7 +5,6 @@
 </p>
 
 <h1>Creating a Virtual Machine in Azure</h1>
-<br />
 
 <h2>Description</h2>
 <p>This project demonstrates how to create and set up a virtual machine in microsoft azure. </p>
@@ -15,7 +14,7 @@
 - Selecting specific settings for Virtual Machine
 - Finish creating virtual machine
 
-<h2>Operating System(Enviornments) Used </h2>
+<h2>Enviornments Used</h2>
 
 - Windows 10
 - Microsoft Azure portal
